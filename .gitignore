@@ -1,0 +1,9 @@
+*.o
+libptu.a
+ptcapture
+ptfiledump
+ptlogd
+ptlogextract
+ptlogverify
+ptlogwipe
+ptnote
