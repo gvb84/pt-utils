@@ -1,0 +1,4 @@
+0.10
+- changed ptcapture and ptlogextract to output packets in PCAPNG format so that
+  captures of different snap lengths and linktypes can be mixed
+- make ptlogd create the ptu.idx file if it's not there when starting

@@ -1,0 +1,19 @@
+- add ptlogwipe which will wipe all logs without
+  requiring ptlogd to restart
+
+ptlogexport
+ptproxy
+
+ptmark (mark a time between t0 and t1); also with a certain prio (low, high,
+  crit etc) and maybe a textual description
+
+- client needs to handle SIGPIPE if ptlogd dies
+
+- make sure we don't grow to too many files in the directory so maybe invent
+  something to come up with something that uses subdirs for the names
+
+- parse python file and bail out if there's an error inthe script
+
+- if directory is empty and empty idx file is created it doesnt
+  look limke the new files will be setup properly and it will not
+  log properly to the logfiles
